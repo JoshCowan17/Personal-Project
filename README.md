@@ -57,18 +57,18 @@ Week 1:
     of because the computer goes in a very systematic order. The professor actually thinks that using spaces exclusively will help
     This gets a little tricky when loops are involved, but the idea stays the same. They 
    
-   x = 5
-   if x > 2 :
-      print ('Bigger than 2')
-      print ('Still bigger')
-   print ('Done with 2')
-   
-   for i in range (5) :
-       print (i)
-       if i > 2:
-            print ('Bigger than 2')
-       print ('Done with i', i)
-    print ('All Done')
+     x = 5
+     if x > 2 :
+        print ('Bigger than 2')
+        print ('Still bigger')
+     print ('Done with 2')
+
+     for i in range (5) :
+         print (i)
+         if i > 2:
+              print ('Bigger than 2')
+         print ('Done with i', i)
+      print ('All Done')
     
     The stuff within the if statement is conditional code, while the print statement after, is sequential code.
     Then we hit nested code at line 68. 
@@ -77,18 +77,18 @@ Week 1:
       Functions are the topic of week 6. 
       Boolean expressions and functions
      
-grade = int(input("Enter your grade:"))
- if grade >= 90:
- print ("Very Good!")
-elif grade >= 80:
- print ("Good!")
-elif grade >= 70:
- print ("Fair")
-elif grade >= 60:
- print ("Satisfactory")
-else:
- print ("Poor")
- 
+      grade = int(input("Enter your grade:"))
+       if grade >= 90:
+       print ("Very Good!")
+      elif grade >= 80:
+       print ("Good!")
+      elif grade >= 70:
+       print ("Fair")
+      elif grade >= 60:
+       print ("Satisfactory")
+      else:
+       print ("Poor")
+
 
       
     
