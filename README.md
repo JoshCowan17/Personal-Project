@@ -88,12 +88,37 @@ Week 1:
        print ("Satisfactory")
       else:
        print ("Poor")
-
-
-      
     
+    Week7:
+
+    name = input("Enter your name: ")
+    x = 0
+    while x < 20:
+      print (name)
+      x = x + 1
       
-    
+    number = int(input("Enter a number"))
+    x=1
+    while x <= number:
+      if (x % 10 == 0):
+        print (x)
+      else:
+        print(x, end=" ")
+      x = x + 1
+      
+    doAgain= "y"
+    while doAgain =="y";
+      word =input("Enter a word:")
+      print ("First letter of " + word + " + word [0])
+    print ("Done!")
+      
+    countdown = 100
+    print (" ")
+    print (countdown)
+    while countdown > 0:
+      countdown = countdown - 1
+      print (countdown)
+    print ("Done!")
     
     
    
