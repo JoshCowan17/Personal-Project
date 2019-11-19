@@ -90,6 +90,7 @@ Week 1:
        print ("Poor")
     
     Week7:
+    #The final week goes over looping for in python
 
     name = input("Enter your name: ")
     x = 0
